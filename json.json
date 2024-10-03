@@ -1,0 +1,69 @@
+{
+    "id": "64X96547BJ7437419",
+    "intent": "CAPTURE",
+    "status": "COMPLETED",
+    "purchase_units": [
+        {
+            "reference_id": "default",
+            "amount": {
+                "currency_code": "USD",
+                "value": "8450.00"
+            },
+            "payee": {
+                "email_address": "sb-rblzv30010320@business.example.com",
+                "merchant_id": "QE2EYEHQU59D6"
+            },
+            "soft_descriptor": "PAYPAL *TEST STORE",
+            "shipping": {
+                "name": {
+                    "full_name": "adrian adrian"
+                },
+                "address": {
+                    "address_line_1": "calle marmoles portal 20 2ºB",
+                    "admin_area_2": "malaga",
+                    "admin_area_1": "IN",
+                    "postal_code": "29008",
+                    "country_code": "ES"
+                }
+            },
+            "payments": {
+                "captures": [
+                    {
+                        "id": "6JB986019N974821U",
+                        "status": "COMPLETED",
+                        "amount": {
+                            "currency_code": "USD",
+                            "value": "8450.00"
+                        },
+                        "final_capture": true,
+                        "seller_protection": {
+                            "status": "NOT_ELIGIBLE"
+                        },
+                        "create_time": "2024-04-11T10:48:30Z",
+                        "update_time": "2024-04-11T10:48:30Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "payer": {
+        "name": {
+            "given_name": "adrian",
+            "surname": "adrian"
+        },
+        "email_address": "adriancampayo6@gmail.com",
+        "payer_id": "Q3XHRPK7TMCYE",
+        "address": {
+            "country_code": "ES"
+        }
+    },
+    "create_time": "2024-04-11T10:46:36Z",
+    "update_time": "2024-04-11T10:48:30Z",
+    "links": [
+        {
+            "href": "https://api.sandbox.paypal.com/v2/checkout/orders/64X96547BJ7437419",
+            "rel": "self",
+            "method": "GET"
+        }
+    ]
+}

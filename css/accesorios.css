@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    background-color: #fff;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 8px;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.content-menu {
+    width: 200px;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.content-menu-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content-menu-filters-filter {
+    margin-bottom: 10px;
+}
+
+.content-menu-filters-filter select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.content-items {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: start;
+
+}
+
+.item {
+    background-color: #fff;
+    width: 200px; /* Ancho de cada elemento, ajusta según tus necesidades */
+    margin-right: 20px; /* Espacio entre elementos, ajusta según tus necesidades */
+    cursor: pointer;
+    position: relative;
+    display: inline-block; /* Cambiado a inline-block para mostrar en línea */
+    align-items: center;
+
+}
+
+
+.item-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.item-desc {
+    padding: 12px;
+}
+
+.item-desc-title {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.item-desc-price {
+    color: #999;
+}
+
+.add-to-cart-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+
+.search-container {
+    float: right; /* Cambiado a float: right; para alinear a la derecha */
+    margin-right: 20px;
+    margin-top: 20px; /* Agregado margen superior para separar del menú */
+}
+
+.search-container form {
+    display: inline-block;
+}
+
+.search-container input[type=text],
+.search-container button {
+    padding: 6px;
+    margin: 0;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.search-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
